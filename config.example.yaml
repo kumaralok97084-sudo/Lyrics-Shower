@@ -1,0 +1,47 @@
+# YouTube Music Lyrics Player Configuration
+
+# Genius API token for fetching lyrics
+# Get from: https://genius.com/api-clients
+genius_token: "your_api_key_here"
+
+# YouTube Data API key (optional, for enhanced features)
+# Get from: https://console.developers.google.com/
+youtube_api_key: "your_youtube_api_key_here"
+
+# Global multiplier for all timing (1.0 = normal, 1.5 = 50% slower, 2.0 = 2x slower)
+lyrics_delay_multiplier: 2.35
+
+# Delay between highlighting each word in seconds (lower = faster)
+# Default: 0.12 (fast) | Recommended slow: 0.25-0.5
+word_delay: 0.60
+
+# Enable word highlighting speech via TTS while the song plays.
+# Set false to keep the display fast when the browser song is playing.
+tts_enabled: true
+
+# Minimum and maximum delay allowed when calculating delay from song duration.
+min_word_delay: 0.08
+max_word_delay: 0.60
+
+# Minimum delay per line (not used with word-by-word display)
+min_line_delay: 2.0
+
+# Maximum delay per line (not used with word-by-word display)
+max_line_delay: 5.0
+
+# Text-to-speech speaking rate (higher = faster)
+# Default: 180 (fast) | Slow: 100-150 | Normal: 150-180 | Fast: 200+
+tts_rate: 180
+
+# Text-to-speech volume level (0.0 = mute, 1.0 = max)
+tts_volume: 0.8
+
+# Automatically open the song in browser for music playback (true/false)
+auto_open_browser: true
+
+auto_calculate_delay: true
+
+browser_start_delay: 4.0
+
+tts_enabled: true
+

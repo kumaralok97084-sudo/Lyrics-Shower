@@ -1,0 +1,6 @@
+ytmusicapi>=1.0.0
+lyricsgenius>=3.0.0
+pyttsx3>=2.90
+google-api-python-client>=2.0.0
+python-dotenv>=1.0.0
+PyYAML>=6.0
